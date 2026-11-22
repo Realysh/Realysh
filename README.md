@@ -1,17 +1,27 @@
-# 윤상현 | AI · 데이터 · 소프트웨어 개발
+![AI, Data and Software | Realysh](./portfolio-banner.svg)
 
-리뷰 데이터로 모델을 비교하고, 기숙사 공지를 찾아 답하는 챗봇을 만들었습니다. 한성대학교 컴퓨터공학부 빅데이터트랙에서 공부하며, 모델이 어떤 근거로 답하는지와 어디까지 검증했는지를 기록합니다.
+# 👋 Hi, I’m Sanghyun Yoon (윤상현)
 
-## 대표 프로젝트
+I’m a computer engineering student at **Hansung University**, specializing in **Big Data**. I build AI tools that answer with sources and run machine learning experiments that show what changed, what worked, and what still needs testing.
 
-| 프로젝트 | 무엇을 만들고 확인했나요? |
+📫 **Email:** [yoonsh0715@naver.com](mailto:yoonsh0715@naver.com)
+
+## 🛠️ Tools I work with
+
+![Python, TensorFlow, Java, React, Firebase, and Ollama](./portfolio-toolkit.svg)
+
+## 🚀 Selected projects
+
+| Project | What I built or tested |
 | --- | --- |
-| [캡스톤 비교 모델](https://github.com/Realysh/capstone_test) | Steam 리뷰의 유용성을 예측하는 비교 모델 3종. 팀장으로 문제 정의·데이터 증강 시스템 구축 및 데이터 추출·모델 설계를 맡았습니다. |
-| [Typing War](https://github.com/Realysh/typing-war-portfolio) | Java Swing과 TCP를 사용한 멀티플레이 타이핑 게임 팀 프로젝트. 초기 GUI 작업에 참여하고 두 클라이언트로 대기실 흐름을 확인했습니다. |
-| [prisim_lab](https://github.com/Realysh/prisim-lab-portfolio) | 호텔 리뷰 증강 실험. 예시와 호텔 정보가 생성 문장의 길이, 감성 분포, 호텔명 노출에 어떤 차이를 만드는지 비교했습니다. |
+| 📊 [Steam Review Helpfulness](https://github.com/Realysh/capstone_test) | Led the capstone team. I worked on problem definition, data augmentation and extraction, and model design. The repository documents three baselines: DMMN, HP-BERT, and TNN. |
+| ⌨️ [Typing War](https://github.com/Realysh/typing-war-portfolio) | Helped build the initial Java Swing UI for a multiplayer typing game and verified the lobby flow using two TCP clients. |
+| 🧪 [Hotel Review Augmentation](https://github.com/Realysh/prisim-lab-portfolio) | Compared how the number of examples and the hotel details in a prompt changed the length, sentiment, and name disclosure of generated reviews. |
 
-## 직접 만든 서비스: 길라자비스 (Dorm Chat)
+## 💬 Dorm Chat · 길라자비스
 
-기숙사 생활 정보를 묻기 위해 여러 공지를 뒤질 필요가 없도록, 질문에 맞는 **기숙사 공지를 먼저 찾고, 그 공지를 근거로 답변과 출처를 보여 주는** 챗봇을 만들었습니다. 이 방식이 RAG(검색 증강 생성)입니다.
+I built a chatbot that finds relevant dorm notices before answering residents’ questions. It includes the sources in its replies so residents can check the original notices. This approach is called **retrieval-augmented generation (RAG)**.
 
-**[제가 만든 카카오톡 채널 ‘동행’ 보기](https://pf.kakao.com/_rxeNNX)** · 소스 코드와 내부 데이터는 공개하지 않습니다.
+![Dorm Chat: ask a question, find relevant notices, and answer with sources](./dorm-chat-flow.svg)
+
+🔗 **[View the Donghaeng (동행) KakaoTalk channel I built](https://pf.kakao.com/_rxeNNX)** · Source code and internal data are private.
